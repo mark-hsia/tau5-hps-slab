@@ -1,0 +1,18 @@
+{
+  "variant": "W2A",
+  "sequence": "AAGSSGTLELPSTLSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDYGSAAAAAAAQCRYGDLASLHGAGAAGPGSGSPSAAASSSAHTLFTAEEGQLYGPC",
+  "wt_sequence": "AAGSSGTLELPSTLSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDYGSAWAAAAAQCRYGDLASLHGAGAAGPGSGSPSAAASSSWHTLFTAEEGQLYGPC",
+  "substitutions": [
+    "W68A",
+    "W104A"
+  ],
+  "n_residues": 119,
+  "n_mol": 50,
+  "box_l_nm": 50.0,
+  "r0_nm": 0.38,
+  "ca_pdb": "inputs_W2A/init_TAU5s_W2A_CA.pdb",
+  "system_pdb": "inputs_W2A/start_multi_TAU5s_W2A.pdb",
+  "chain_mass_amu": 11818.570000000002,
+  "seed_state_from": "run/prep/state_npt_lowT.xml",
+  "config_validated": true
+}

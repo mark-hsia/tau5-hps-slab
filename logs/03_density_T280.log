@@ -1,0 +1,17 @@
+
+=== 280.0 K ===
+trajectory : run/slab/T280/traj.dcd
+chain mass : 1429.3 amu   system 71464 amu
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Traceback (most recent call last):
+  File "/dartfs-hpc/rc/lab/R/RobustelliP/Mark/Tau5_slab_hps/scripts/03_density.py", line 200, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/dartfs-hpc/rc/lab/R/RobustelliP/Mark/Tau5_slab_hps/scripts/03_density.py", line 181, in main
+    rows = [s for s in [process(a.temperature)] if s]
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/dartfs-hpc/rc/lab/R/RobustelliP/Mark/Tau5_slab_hps/scripts/03_density.py", line 82, in process
+    box = chunk.unitcell_lengths.astype(np.float64)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'astype'

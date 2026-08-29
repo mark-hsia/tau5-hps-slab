@@ -1,0 +1,22 @@
+/dartfs-hpc/rc/home/c/f00793c/miniforge3/envs/hps/lib/python3.11/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+sequence length     : 119
+chains to insert    : 50
+box length (nm)     : 50.0
+
+building monomer -> inputs/init_TAU5s_CA.pdb
+
+inputs/start_multi_TAU5s.pdb exists -- skipping insertion
+
+verifying inputs/start_multi_TAU5s.pdb
+  chains            : 1 (expected 50)
+  atoms             : 5950 (expected 5950)
+  residues/chain    : [5950]
+  sequence matches  : 0/1
+  MISMATCHED CHAINS : [0]
+  coord min (nm)    : [-15.18 -11.14 -17.66]
+  coord max (nm)     : [58.93 67.67 61.86]
+  extent (nm)       : [74.12 78.8  79.52]
+  WARNING: atoms outside the [0, 50.0] nm box -- BOX_L in 01_prep.py must cover this extent
+
+wrote inputs/build_meta.json

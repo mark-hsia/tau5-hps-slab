@@ -1,0 +1,16 @@
+/dartfs-hpc/rc/home/c/f00793c/miniforge3/envs/hps/lib/python3.11/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+parsed inputs/start_multi_TAU5s.pdb: 5950 atoms
+  columns: ['recname', 'serial', 'name', 'altLoc', 'resname', 'chainID', 'resSeq', 'iCode', 'x', 'y', 'z', 'occupancy', 'tempFactor', 'element', 'charge']
+wrote inputs/start_multi_TAU5s_50chains.pdb with 50 chains
+
+  chains           : 50 (expected 50)
+  atoms            : 5950 (expected 5950)
+  residues/chain   : [119] (expected [119])
+  sequence matches : 50/50
+  extent (nm)      : [74.12 78.8  79.52]  [a 119-mer straight chain is ~44.8 nm long]
+
+  PBC check in a 50.0 nm box:
+    inter-molecular pairs < 1.0 nm : 0 (expect 0)
+
+PASS -- inputs/start_multi_TAU5s_50chains.pdb is ready for prep

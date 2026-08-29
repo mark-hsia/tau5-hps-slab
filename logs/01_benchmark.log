@@ -1,0 +1,21 @@
+/dartfs-hpc/rc/home/c/f00793c/miniforge3/envs/hps/lib/python3.11/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+initial configuration : inputs/start_multi_TAU5s_50chains.pdb
+box (nm)              : 50.0 cubic
+molecules             : 50
+Parse molecule with default settings.
+Add protein bonds.
+Add nonbonded contacts.
+Use Urry hydropathy scale.
+Scale factor mu = 1 and shift delta = 0.08.
+Add Debye-Huckel electrostatic interactions.
+Set Debye length as 1 nm.
+Set water dielectric as 80.0.
+wrote run/prep/system.xml (no barostat)
+
+=== benchmark ===
+nvt       dt=10.0 fs  200000 steps in   13.8 s  ->  12518.0 ns/day
+npt_rt    dt=10.0 fs  200000 steps in   20.5 s  ->   8441.9 ns/day
+
+Stage totals at these rates:
+  A  100 ns @ 10 fs | B  250 ns @ 20 fs | C  500 ns @ 10 fs

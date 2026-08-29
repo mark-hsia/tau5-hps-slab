@@ -1,0 +1,52 @@
+temperatures found: [280, 310, 350]
+
+=== 280.0 K ===
+trajectory : run/slab/T280/traj.dcd
+chain mass : 12048.8 amu   system 602440 amu
+box source : run/slab/T280/state_final.xml -> [10.127 10.127 50.634] nm
+  500 frames  1000 frames  1500 frames  2000 frames  2500 frames  3000 frames  3500 frames  4000 frames  4500 frames  5000 frames  5500 frames  6000 frames  6500 frames  7000 frames  7500 frames  8000 frames  8500 frames  9000 frames  9500 frames  10000 frames  10000 frames, 101 bins, Lz 50.63 nm            
+  mass check : 602441 vs 602440 amu (100.00%)
+  production : frames 5000-10000
+  rho_dense  :   570.41 +/- 0.41 mg/mL
+  rho_dilute :    1.303 +/- 0.871 mg/mL  (c_sat)
+  dilute drift over production : +2.604 mg/mL
+  wrote results/Tau5_hps_rep_T280_Z51/
+
+=== 310.0 K ===
+trajectory : run/slab/T310/traj.dcd
+chain mass : 12048.8 amu   system 602440 amu
+box source : run/slab/T310/state_final.xml -> [10.127 10.127 50.634] nm
+  500 frames  1000 frames  1500 frames  2000 frames  2500 frames  3000 frames  3500 frames  4000 frames  4500 frames  5000 frames  5500 frames  6000 frames  6500 frames  7000 frames  7500 frames  8000 frames  8500 frames  9000 frames  9500 frames  10000 frames  10000 frames, 101 bins, Lz 50.63 nm            
+  mass check : 602441 vs 602440 amu (100.00%)
+  production : frames 5000-10000
+  rho_dense  :   431.14 +/- 3.21 mg/mL
+  rho_dilute :    8.568 +/- 2.118 mg/mL  (c_sat)
+  dilute drift over production : -4.398 mg/mL
+  wrote results/Tau5_hps_rep_T310_Z51/
+
+=== 350.0 K ===
+trajectory : run/slab/T350/traj.dcd
+chain mass : 12048.8 amu   system 602440 amu
+box source : run/slab/T350/state_final.xml -> [10.127 10.127 50.634] nm
+  500 frames  1000 frames  1500 frames  2000 frames  2500 frames  3000 frames  3500 frames  4000 frames  4500 frames  5000 frames  5500 frames  6000 frames  6500 frames  7000 frames  7500 frames  8000 frames  8500 frames  9000 frames  9500 frames  10000 frames  10000 frames, 101 bins, Lz 50.63 nm            
+  mass check : 602440 vs 602440 amu (100.00%)
+  production : frames 5000-10000
+  rho_dense  :   240.55 +/- 5.59 mg/mL
+  rho_dilute :  140.318 +/- 3.837 mg/mL  (c_sat)
+  dilute drift over production : -4.865 mg/mL
+  NOTE: dilute/dense > 0.25 -- phases poorly separated; may be at or above T_c
+  wrote results/Tau5_hps_rep_T350_Z51/
+
+=== coexistence summary ===
+  T (K)    rho_dense        c_sat    ratio
+    280       570.41        1.303    0.002
+    310       431.14        8.568    0.020
+    350       240.55      140.318    0.583
+
+wrote results/coexistence.json
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)

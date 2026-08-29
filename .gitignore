@@ -1,0 +1,20 @@
+# Simulation data lives on scratch (purge-eligible) and is regenerable
+run
+run/
+*.dcd
+*.xml
+*.npy
+
+# Generated structures: rebuilt deterministically by scripts/00_build_initial.py
+# and scripts/10_build_mutant.py from the sequences recorded in build_meta.json
+*.pdb
+
+# Bulky StateDataReporter output (~1 MB per production run)
+logs/*.out
+logs/*.err
+
+# Python
+__pycache__/
+*.pyc
+*.bak
+.ipynb_checkpoints/

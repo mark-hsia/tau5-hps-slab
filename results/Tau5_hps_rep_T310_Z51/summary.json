@@ -1,0 +1,20 @@
+{
+  "temperature_K": 310.0,
+  "mass_model": "openabc HPSParser amino-acid masses",
+  "chain_mass_amu": 12048.81,
+  "system_mass_amu": 602440.5,
+  "force_field": "HPS-Urry (mu=1, delta=0.08)",
+  "n_frames": 10000,
+  "n_frames_production": 5000,
+  "box_x_nm": 10.126885008848332,
+  "box_y_nm": 10.126885008848332,
+  "box_z_nm": 50.63442504424165,
+  "bin_nm": 0.5,
+  "rho_dense_mg_per_mL": 431.1444079847246,
+  "rho_dense_err": 3.214962497416634,
+  "rho_dilute_mg_per_mL": 8.567551974619178,
+  "rho_dilute_err": 2.1178199302676597,
+  "csat_mg_per_mL": 8.567551974619178,
+  "dilute_drift_mg_per_mL": -4.398046765015265,
+  "mass_recovery_pct": 100.0000000000001
+}

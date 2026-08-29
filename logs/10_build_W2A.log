@@ -1,0 +1,25 @@
+/dartfs-hpc/rc/home/c/f00793c/miniforge3/envs/hps/lib/python3.11/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+variant W2A: W68A, W104A
+
+building mutant monomer -> inputs_W2A/init_TAU5s_W2A_CA.pdb
+wrote inputs_W2A/start_multi_TAU5s_W2A.pdb (WT coordinates, mutant identities)
+  chains 50, atoms 5950, sequence matches 50/50
+
+building mutant system
+Parse molecule with default settings.
+Add protein bonds.
+Add nonbonded contacts.
+Use Urry hydropathy scale.
+Scale factor mu = 1 and shift delta = 0.08.
+Add Debye-Huckel electrostatic interactions.
+Set Debye length as 1 nm.
+Set water dielectric as 80.0.
+wrote run/prep_W2A/system.xml
+  chain mass 11818.6 amu, system 590928 amu
+
+seed state <- run/prep/state_npt_lowT.xml
+  5950 positions, box [10.127 10.127 10.127] nm
+wrote inputs_W2A/build_meta.json
+
+OK -- ready for production runs

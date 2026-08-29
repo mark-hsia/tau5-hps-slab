@@ -1,0 +1,13 @@
+{
+  "sequence": "AAGSSGTLELPSTLSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDYGSAWAAAAAQCRYGDLASLHGAGAAGPGSGSPSAAASSSWHTLFTAEEGQLYGPC",
+  "n_residues": 119,
+  "n_mol": 50,
+  "box_l_nm": 50.0,
+  "r0_nm": 0.38,
+  "insert_radius_nm": 0.5,
+  "ca_pdb": "inputs/init_TAU5s_CA.pdb",
+  "system_pdb": "inputs/start_multi_TAU5s_50chains.pdb",
+  "system_pdb_raw": "inputs/start_multi_TAU5s.pdb",
+  "n_chains": 50,
+  "config_validated": true
+}
